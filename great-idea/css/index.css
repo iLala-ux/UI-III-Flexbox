@@ -135,7 +135,7 @@ nav a:after{
 	padding: 100px 10px;
 }
 #iod-txt, #iod-img{
-	display: inline-block;
+	display: flex;
 	vertical-align: middle;
 	width: 48%;
 }
