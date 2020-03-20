@@ -8,38 +8,41 @@
 
   <link href="https://fonts.googleapis.com/css?family=Bangers|Titillium+Web" rel="stylesheet">
   <link rel="stylesheet" href="css/index.css">
-  <link rel="stylesheet" href="css/services.css"
+  
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
 </head>
   <body>
-    <nav>
-      <a href="#services.html">Services</a>
-      <a href="#product.html">Product</a>
-      <a href="#vision.html">Vision</a>
-      <a href="#features.html">Features</a>
-      <a href="#About.html">About</a>
-      <a href="#Contact.html">Contact</a>
-      <img src="img/logo.png" alt="Great Idea! Company logo.">
+    <nav class="site-nav flex-container horizontal">
+      <div id="nav-link-container" class="flex-container horizontal">
+        <a href="#services.html">Services</a>
+        <a href="#product">Product</a>
+        <a href="#vision">Vision</a>
+        <a href="#features">Features</a>
+        <a href="#About">About</a>
+        <a href="#Contact">Contact</a>
+      </div>
+      <div id="logo-container">
+        <img src="img/logo.png" alt="Great Idea! Company logo."></a>
+      </div>
     </nav>
-    <div class="container">
-      <header>
-        <section class="iod"></section>
-          <div id="iod-txt">
+    <div class="container-wrap">
+      <header class="iod">
+        <div class="flex-container horizontal">
+          <div id="iod-txt" class="flex-container vertical">
             <h1>
               <p>Innovation</p>
               <p>On</p>
               <p>Demand</p>  
             </h1>
-              
             <button id="iod-button">Get Started</button>
           </div>
-          <div id="iod-img">
-            <img src="img/header-img.png" alt="Image of a code snippet.">
+          <div id="iod-img" class="flex-container horizontal">
+            <img alt="iod-img" src="img/header-img.png">
           </div>
-        </section>
+        </div>
       </header> 
     
       <section class="top-content">
@@ -76,7 +79,6 @@
       
       <section id="contact" class="flex-container vertical">
         <h2>Contact</h2>
-
         <address id="contant-info">
           <p>123 Way 456 Street</p>
           <p> Somewhere, USA</p><br><br>  
