@@ -26,7 +26,7 @@ time, mark, audio, video {
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: flex;
+	display: block;
 }
 body {
 	line-height: 1;
@@ -65,7 +65,16 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 /* ~~~~~~~~~~~~~~~Your code starts here!~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-.container{
+.flex-container{
+	display:flex;
+}
+.horizontal{
+	flex-direction: row;
+}
+.vertical{
+	flex-direction: column;
+}
+.container-wrap{
 	margin:20px 40px 40px 40px;
 }
 body{
@@ -91,6 +100,8 @@ nav{
 	top: 0%;
 	width:100%;
 }
+.site-nav
+
 .nav a{
 	
 	text-decoration: none;
@@ -135,7 +146,7 @@ nav a:after{
 	padding: 100px 10px;
 }
 #iod-txt, #iod-img{
-	display: flex;
+	display: inline-block;
 	vertical-align: middle;
 	width: 48%;
 }
